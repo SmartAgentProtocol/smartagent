@@ -39,7 +39,7 @@ That's it. The installer handles everything:
 SmartAgent grows with you:
 
 ```
-Day 1:   Morpheus API Gateway (kimi-k2.5, open access)
+Day 1:   Morpheus API Gateway (Kimi K2.5, GLM-5, MiniMax M2.5, open access)
            ↓
 Week 1:  Own API key from app.mor.org (personalized, no cost)
            ↓
