@@ -4,6 +4,8 @@
 
 SmartAgent gives you a personal AI assistant that works out of the box — no API key, no subscription, no corporate middleman. Powered by [OpenClaw](https://openclaw.ai) and [Morpheus](https://mor.org) decentralized inference.
 
+> **New: [DIY Setup Guide](https://github.com/betterbrand/Mac-Mini-Morpheus-Agent-DIY-Guide)** — Want to build a Smart Agent from scratch on a Mac mini? Complete walkthrough with identity separation, on-chain guardrails, three-tier inference fallback, and 8 documented gotchas. Every step tested on real hardware.
+
 ## Install
 
 One command:
