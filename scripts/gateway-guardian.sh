@@ -458,7 +458,7 @@ fi
 if [[ "$INFERENCE_OK" == "true" ]]; then
   # If we were in billing-dead state and just recovered, notify!
   if [[ "$BILLING_DEAD_SINCE" -gt 0 ]]; then
-    local dead_duration=$(( $(date +%s) - BILLING_DEAD_SINCE ))
+    dead_duration=$(( $(date +%s) - BILLING_DEAD_SINCE ))
     log "BILLING RECOVERED: Credits are back after $((dead_duration / 60)) min."
     notify_signal "✅ DIEM credits restored! I'm back online after $((dead_duration / 60)) min of billing exhaustion."
     echo "0" > "$BILLING_STATE_FILE"
