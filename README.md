@@ -88,6 +88,7 @@ SmartAgent
 ├── Everclaw (decentralized inference)
 │   ├── Morpheus API Gateway (open access, cloud)
 │   ├── Morpheus P2P Proxy (local, staked MOR)
+│   ├── Always-On Proxy-Router (launchd KeepAlive, auto-restart)
 │   ├── Gateway Guardian v4 (billing-aware self-healing watchdog)
 │   └── Smart Session Archiver (prevents dashboard overload)
 └── SmartAgent Config
