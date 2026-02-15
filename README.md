@@ -77,6 +77,7 @@ After installation:
 | Check status | `openclaw status` |
 | Update OpenClaw | `openclaw update` |
 | Update Everclaw | `cd ~/.openclaw/workspace/skills/everclaw && git pull` |
+| **Diagnose** | `bash ~/.openclaw/workspace/skills/everclaw/scripts/diagnose.sh` |
 
 ## Architecture
 
@@ -90,6 +91,7 @@ SmartAgent
 ├── Everclaw (decentralized inference)
 │   ├── Morpheus API Gateway (open access, cloud)
 │   ├── Morpheus P2P Proxy (local, staked MOR)
+│   ├── Diagnostic Tool (18-check health scanner)
 │   ├── Always-On Proxy-Router (launchd KeepAlive, auto-restart)
 │   ├── Gateway Guardian v4 (billing-aware self-healing watchdog)
 │   └── Smart Session Archiver (prevents dashboard overload)
