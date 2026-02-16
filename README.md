@@ -91,6 +91,7 @@ SmartAgent
 ├── Everclaw (decentralized inference)
 │   ├── Morpheus API Gateway (open access, cloud)
 │   ├── Morpheus P2P Proxy (local, staked MOR)
+│   │   └── Dynamic Model Discovery (auto-discovers 35+ models)
 │   ├── Diagnostic Tool (18-check health scanner)
 │   ├── Always-On Proxy-Router (launchd KeepAlive, auto-restart)
 │   ├── Gateway Guardian v4 (billing-aware self-healing watchdog)
